@@ -177,6 +177,9 @@
             "projectReferences": {
               "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
                 "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+              },
+              "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Common\\Post.Common.csproj": {
+                "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Common\\Post.Common.csproj"
               }
             }
           }
