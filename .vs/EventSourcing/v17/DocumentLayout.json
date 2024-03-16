@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Aghazadeh\\Git\\EventSourcing\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.infrastructure\\dispatchers\\commanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.infrastructure\\dispatchers\\commanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB8F127-F489-4290-ADB1-B5C468875C88}|Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\cqrs-es\\cqrs.core\\infrastructure\\icommanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB8F127-F489-4290-ADB1-B5C468875C88}|Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|solutionrelative:src\\cqrs-es\\cqrs.core\\infrastructure\\icommanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.infrastructure\\post.command.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.infrastructure\\post.command.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICommandDispatcher.cs",
+              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\Infrastructure\\ICommandDispatcher.cs",
+              "RelativeDocumentMoniker": "Src\\CQRS-ES\\CQRS.Core\\Infrastructure\\ICommandDispatcher.cs",
+              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\Infrastructure\\ICommandDispatcher.cs",
+              "RelativeToolTip": "Src\\CQRS-ES\\CQRS.Core\\Infrastructure\\ICommandDispatcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T04:28:59.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommandDispatcher.cs",
+              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Dispatchers\\CommandDispatcher.cs",
+              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Dispatchers\\CommandDispatcher.cs",
+              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Dispatchers\\CommandDispatcher.cs",
+              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Dispatchers\\CommandDispatcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T04:28:33.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Post.Command.Infrastructure",
+              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj",
+              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj",
+              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-16T04:27:49.448Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"

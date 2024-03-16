@@ -4,14 +4,14 @@
     "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj": {
+    "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
-        "projectName": "Post.Query.Infrastructure",
-        "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
+        "projectName": "CQRS.Core",
+        "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\obj\\",
+        "outputPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,213 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Common\\Post.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Common\\Post.Common.csproj",
+        "projectName": "Post.Common",
+        "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Common\\Post.Common.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj",
+        "projectName": "Post.Query.Domain",
+        "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+              },
+              "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Common\\Post.Common.csproj": {
+                "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Common\\Post.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+        "projectName": "Post.Query.Infrastructure",
+        "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+              },
+              "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
+                "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
