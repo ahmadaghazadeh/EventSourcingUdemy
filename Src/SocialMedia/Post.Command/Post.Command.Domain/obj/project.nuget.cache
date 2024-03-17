@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BhpqGqOGJqHr1ZPaiMZYRaqQAv4JLMWmhkIlKR3hb7SBY/0Mo1Sr8agoOCZRluTAcNIjv9KrWCjITU+Wu1IvNg==",
+  "dgSpecHash": "ZS5n2IUgI+21KjCvBbIeeTNR3JAtErN4yBKp3f21FUSsRETJFKyOt65BAgdKI0RlcuoUJyYa2T5cpKfIV5yJfQ==",
   "success": true,
   "projectFilePath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Domain\\Post.Command.Domain.csproj",
   "expectedPackageFiles": [

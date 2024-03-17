@@ -11,21 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Command", "Post.Comman
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Query", "Post.Query", "{F293CAD5-931F-4C30-9963-09ABC6AF5C36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Core", "Src\CQRS-ES\CQRS.Core\CQRS.Core.csproj", "{7CB8F127-F489-4290-ADB1-B5C468875C88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS.Core", "Src\CQRS-ES\CQRS.Core\CQRS.Core.csproj", "{7CB8F127-F489-4290-ADB1-B5C468875C88}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Command.Api", "Src\SocialMedia\Post.Command\Post.Command.Api\Post.Command.Api.csproj", "{D3A169DA-38D7-4EBC-BD76-966843820FAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Command.Domain", "Src\SocialMedia\Post.Command\Post.Command.Domain\Post.Command.Domain.csproj", "{48122F7E-0400-4CC9-A49F-C53C793B1D93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Command.Domain", "Src\SocialMedia\Post.Command\Post.Command.Domain\Post.Command.Domain.csproj", "{48122F7E-0400-4CC9-A49F-C53C793B1D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Command.Infrastructure", "Src\SocialMedia\Post.Command\Post.Command.Infrastructure\Post.Command.Infrastructure.csproj", "{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Command.Infrastructure", "Src\SocialMedia\Post.Command\Post.Command.Infrastructure\Post.Command.Infrastructure.csproj", "{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Api", "Src\SocialMedia\Post.Query\Post.Query.Api\Post.Query.Api.csproj", "{5BFEDE3D-8391-4AC7-834D-7959C334D656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Api", "Src\SocialMedia\Post.Query\Post.Query.Api\Post.Query.Api.csproj", "{5BFEDE3D-8391-4AC7-834D-7959C334D656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Domain", "Src\SocialMedia\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj", "{24928553-2791-4ACE-AEF1-3527C41F0D4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Domain", "Src\SocialMedia\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj", "{24928553-2791-4ACE-AEF1-3527C41F0D4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Infrastructure", "Src\SocialMedia\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj", "{6BFFA5C6-C84B-496A-A0B4-C2623E6C0CDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Infrastructure", "Src\SocialMedia\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj", "{6BFFA5C6-C84B-496A-A0B4-C2623E6C0CDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Common", "Src\SocialMedia\Post.Common\Post.Common.csproj", "{CAEFBF13-678C-4806-A0AC-BC49E7D3FAD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Common", "Src\SocialMedia\Post.Common\Post.Common.csproj", "{CAEFBF13-678C-4806-A0AC-BC49E7D3FAD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
