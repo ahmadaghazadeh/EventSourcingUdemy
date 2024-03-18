@@ -6,8 +6,5 @@ namespace Post.Command.Api.Commands
 	{
 		public string UserName { get; set; }
 
-		public string Comment { get; set; }
-
-		public string Username { get; set; }
 	}
 }

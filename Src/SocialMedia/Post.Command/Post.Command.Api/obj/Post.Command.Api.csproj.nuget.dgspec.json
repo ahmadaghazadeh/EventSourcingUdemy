@@ -249,6 +249,9 @@
             "projectReferences": {
               "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
                 "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+              },
+              "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Domain\\Post.Command.Domain.csproj": {
+                "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Domain\\Post.Command.Domain.csproj"
               }
             }
           }

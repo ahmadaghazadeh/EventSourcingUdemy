@@ -482,6 +482,33 @@
         "runtime": {
           "bin/placeholder/CQRS.Core.dll": {}
         }
+      },
+      "Post.Command.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CQRS.Core": "1.0.0",
+          "Post.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Post.Command.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Post.Command.Domain.dll": {}
+        }
+      },
+      "Post.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CQRS.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Post.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Post.Common.dll": {}
+        }
       }
     }
   },
@@ -1144,6 +1171,16 @@
       "type": "project",
       "path": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj",
       "msbuildProject": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+    },
+    "Post.Command.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Post.Command.Domain/Post.Command.Domain.csproj",
+      "msbuildProject": "../Post.Command.Domain/Post.Command.Domain.csproj"
+    },
+    "Post.Common/1.0.0": {
+      "type": "project",
+      "path": "../../Post.Common/Post.Common.csproj",
+      "msbuildProject": "../../Post.Common/Post.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1151,7 +1188,8 @@
       "CQRS.Core >= 1.0.0",
       "Confluent.Kafka >= 2.3.0",
       "Microsoft.Extensions.Options >= 8.0.2",
-      "MongoDB.Driver.Core >= 2.24.0"
+      "MongoDB.Driver.Core >= 2.24.0",
+      "Post.Command.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1182,6 +1220,9 @@
           "projectReferences": {
             "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
               "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+            },
+            "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Domain\\Post.Command.Domain.csproj": {
+              "projectPath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Domain\\Post.Command.Domain.csproj"
             }
           }
         }

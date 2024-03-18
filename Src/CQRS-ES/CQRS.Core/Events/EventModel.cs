@@ -21,7 +21,7 @@ namespace CQRS.Core.Events
 
 		public string EventType { get; set; }
 
-		public string EventData { get; set; }
+		public BaseEvent EventData { get; set; }
 
 
 	}

@@ -1,9 +1,8 @@
-using Microsoft.Extensions.DependencyInjection;
-using Post.Command.Infrastructure.Config;
+ 
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.Configure<MongoDbConfig>(builder.Configuration.GetSection(nameof(MongoDbConfig)));
+
 // Add services to the container.
 
 builder.Services.AddControllers();

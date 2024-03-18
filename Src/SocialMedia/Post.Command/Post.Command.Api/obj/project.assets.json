@@ -617,7 +617,8 @@
           "CQRS.Core": "1.0.0",
           "Confluent.Kafka": "2.3.0",
           "Microsoft.Extensions.Options": "8.0.2",
-          "MongoDB.Driver.Core": "2.24.0"
+          "MongoDB.Driver.Core": "2.24.0",
+          "Post.Command.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Post.Command.Infrastructure.dll": {}

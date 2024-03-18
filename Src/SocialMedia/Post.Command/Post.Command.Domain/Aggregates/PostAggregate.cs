@@ -3,7 +3,7 @@ using Post.Common.Events;
 
 namespace Post.Command.Domain.Aggregates
 {
-	public class Post: AggregateRoot
+	public class PostAggregate : AggregateRoot
 	{
 		private bool _active;
 
@@ -16,12 +16,12 @@ namespace Post.Command.Domain.Aggregates
 			get => _active; set => _active = value;
 		}
 
-		public Post()
+		public PostAggregate()
 		{
 
 		}
 
-		public Post(Guid id, string author,string message)
+		public PostAggregate(Guid id, string author,string message)
 		{
 			RaiseEvent(new PostCreatedEvent()
 			{
