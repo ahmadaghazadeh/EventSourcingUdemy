@@ -14,11 +14,6 @@ namespace Post.Command.Infrastructure.Producers
 		public EventProducer(IOptions<ProducerConfig> config)
 		{
 			_config = config.Value;
-
-			var testConfig = new ProducerConfig
-			{
-				BootstrapServers = "localhost:9092"
-			};
 		}
 
 		public async Task ProduceAsync<T>(string topic, T @event) where T : BaseEvent
