@@ -22,7 +22,7 @@ public class NewPostController : ControllerBase
 	[HttpPost]
 	public async Task<ActionResult> NewPostAsync(NewPostCommand command)
 	{
-		var id = Guid.NewGuid(); // Add into middleware 
+		var id = Guid.NewGuid(); // Add into middlewar
 		try
 		{
 			command.Id = id;
