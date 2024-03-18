@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Aghazadeh\\Git\\EventSourcing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.infrastructure\\producers\\eventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.infrastructure\\producers\\eventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5BFEDE3D-8391-4AC7-834D-7959C334D656}|Src\\SocialMedia\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BFEDE3D-8391-4AC7-834D-7959C334D656}|Src\\SocialMedia\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:src\\socialmedia\\post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BFEDE3D-8391-4AC7-834D-7959C334D656}|Src\\SocialMedia\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.query\\post.query.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BFEDE3D-8391-4AC7-834D-7959C334D656}|Src\\SocialMedia\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:src\\socialmedia\\post.query\\post.query.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFFA5C6-C84B-496A-A0B4-C2623E6C0CDD}|Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.query\\post.query.infrastructure\\dataaccess\\readdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFFA5C6-C84B-496A-A0B4-C2623E6C0CDD}|Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:src\\socialmedia\\post.query\\post.query.infrastructure\\dataaccess\\readdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,41 +82,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventProducer.cs",
-              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Producers\\EventProducer.cs",
-              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Producers\\EventProducer.cs",
-              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Producers\\EventProducer.cs*",
-              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Producers\\EventProducer.cs*",
-              "ViewState": "AQIAABIAAAAAAAAAAAAIwCoAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "ReadDbContext.cs",
+              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\DataAccess\\ReadDbContext.cs",
+              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\DataAccess\\ReadDbContext.cs",
+              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\DataAccess\\ReadDbContext.cs",
+              "RelativeToolTip": "Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\DataAccess\\ReadDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T07:12:13.416Z",
+              "WhenOpened": "2024-03-18T08:47:54.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Api\\Program.cs",
               "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Query\\Post.Query.Api\\Program.cs",
               "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Api\\Program.cs",
               "RelativeToolTip": "Src\\SocialMedia\\Post.Query\\Post.Query.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T07:18:26.247Z",
+              "WhenOpened": "2024-03-18T08:32:57.98Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "5abbd874-5823-4360-b738-8933508c4bd2",
+        "Display": 1,
+        "X": -5,
+        "Y": 308,
+        "Width": 1399,
+        "Height": 729,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Program.cs",
-              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Program.cs",
-              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABAAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T07:18:13.167Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Query\\Post.Query.Api\\appsettings.json",
+              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Api\\appsettings.json",
+              "RelativeToolTip": "Src\\SocialMedia\\Post.Query\\Post.Query.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-18T08:44:50.394Z",
               "EditorCaption": ""
             }
           ]
