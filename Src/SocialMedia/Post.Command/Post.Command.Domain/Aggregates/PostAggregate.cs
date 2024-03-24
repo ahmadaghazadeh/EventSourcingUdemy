@@ -121,7 +121,7 @@ namespace Post.Command.Domain.Aggregates
 				throw new InvalidOperationException($"You are not allowed to edit a comment that was made by anther user");
 			}
 
-			RaiseEvent(new CommandUpdatedEvent()
+			RaiseEvent(new CommentUpdatedEvent()
 			{
 				Id = _id,
 				CommentId = commentId,

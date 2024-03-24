@@ -24,7 +24,7 @@ namespace Post.Command.Api.Controllers
         {
             try
             {
-                command.Id = id;
+                 command.Id = id;
                 await _commandDispatcher.SendAsync(command);
 
                 return Ok(new BaseResponse

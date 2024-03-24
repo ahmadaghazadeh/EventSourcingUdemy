@@ -4,7 +4,7 @@ using Confluent.Kafka;
 using CQRS.Core.Consumers;
 using CQRS.Core.Events;
 using Microsoft.Extensions.Options;
-using Post.Query.Infrastructure.Converters;
+using Post.Common.Converters;
 using Post.Query.Infrastructure.Handlers;
 
 namespace Post.Query.Infrastructure.Consumers

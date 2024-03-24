@@ -1,10 +1,14 @@
 ﻿
 using System.Data;
+using System.Text.Json;
+using Confluent.Kafka;
 using CQRS.Core.Domain;
 using CQRS.Core.Events;
 using CQRS.Core.Exception;
 using CQRS.Core.Infrastructure;
 using CQRS.Core.Producers;
+using MongoDB.Bson.Serialization.Serializers;
+using Post.Common.Converters;
 
 namespace Post.Command.Infrastructure.Stores
 {
@@ -33,12 +37,12 @@ namespace Post.Command.Infrastructure.Stores
 				var eventModel = new EventModel
 				{
 					TimeStamp = DateTime.Now,
-					AggregateIdentifier = aggregateId,
+					AggregateIdentifier = aggregateId.ToString(),
 					AggregateType = nameof(Post),
 					Version =version,
 					EventType = eventType,
-					EventData = @event
-				};
+					EventData = JsonSerializer.Serialize(@event)
+			};
 				await _eventStoreRepository.SaveAsync(eventModel);
 
 				var topic = Environment.GetEnvironmentVariable("KAFKA_TOPIC");
@@ -53,8 +57,17 @@ namespace Post.Command.Infrastructure.Stores
 			if (eventStream == null || !eventStream.Any())
 				throw new AggregateNotFoundException("Incorrect post Id provided");
 
+			var options = new JsonSerializerOptions()
+			{
+				Converters =
+				{
+					new EventJsonConverter()
+				}
+			};
+
+
 			return eventStream.OrderBy(x => x.Version)
-				.Select(x=> x.EventData).ToList();
+				.Select(x=> JsonSerializer.Deserialize<BaseEvent>(x.EventData, options: options)).ToList();
 		}
 	}
 }

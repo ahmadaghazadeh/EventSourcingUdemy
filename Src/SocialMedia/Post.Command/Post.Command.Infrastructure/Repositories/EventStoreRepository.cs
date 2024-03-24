@@ -1,6 +1,7 @@
 ﻿using CQRS.Core.Domain;
 using CQRS.Core.Events;
 using Microsoft.Extensions.Options;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using Post.Command.Infrastructure.Config;
 
@@ -14,7 +15,7 @@ namespace Post.Command.Infrastructure.Repositories
 		{
 			var mongoClinet = new MongoClient(config.Value.ConnectionString);
 			var mongoDataBase = mongoClinet.GetDatabase(config.Value.DatabaseName);
-
+			
 			_eventStoreCollection = mongoDataBase.GetCollection<EventModel>(config.Value.Collection);
 
 		}
@@ -23,10 +24,14 @@ namespace Post.Command.Infrastructure.Repositories
 			await _eventStoreCollection.InsertOneAsync(@event).ConfigureAwait(false);
 		}
 
-		public async Task<List<EventModel>> FindByAggregateId(Guid aggregateId)
+		public  Task<List<EventModel>> FindByAggregateId(Guid aggregateId)
 		{
-			return await _eventStoreCollection.Find(x => x.AggregateIdentifier == aggregateId)
-				.ToListAsync().ConfigureAwait(false);
+ 
+
+			var tess1=  _eventStoreCollection.
+				FindSync(x => x.AggregateIdentifier.Equals(aggregateId.ToString()))
+				.ToList();
+			return Task.FromResult(tess1);
 		}
 	}
 }

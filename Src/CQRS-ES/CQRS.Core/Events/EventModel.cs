@@ -12,7 +12,7 @@ namespace CQRS.Core.Events
 
 		public DateTime TimeStamp { get; set; }
 
-		public Guid AggregateIdentifier { get; set; }
+		public string AggregateIdentifier { get; set; }
 
 		public string AggregateType { get; set; }
 
@@ -21,8 +21,7 @@ namespace CQRS.Core.Events
 
 		public string EventType { get; set; }
 
-		public BaseEvent EventData { get; set; }
-
+		public string EventData { get; set; }
 
 	}
 }
