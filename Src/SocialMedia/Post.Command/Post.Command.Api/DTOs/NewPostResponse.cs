@@ -4,7 +4,7 @@ namespace Post.Command.Api.DTOs
 {
 	public class NewPostResponse: BaseResponse
 	{
-		public Guid Id { get; set; }
+		public string Id { get; set; }
 
 
 	}

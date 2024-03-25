@@ -20,7 +20,7 @@ namespace Post.Command.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> LikePostAsync(Guid id)
+        public async Task<ActionResult> LikePostAsync(string id)
         {
             try
             {

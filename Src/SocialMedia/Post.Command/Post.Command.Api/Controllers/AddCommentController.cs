@@ -20,7 +20,7 @@ namespace Post.Command.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> AddCommentAsync(Guid id, AddCommentCommand command)
+        public async Task<ActionResult> AddCommentAsync(string id, AddCommentCommand command)
         {
             try
             {

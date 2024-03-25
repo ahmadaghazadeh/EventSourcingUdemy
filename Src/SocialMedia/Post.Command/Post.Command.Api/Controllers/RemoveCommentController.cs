@@ -20,7 +20,7 @@ namespace Post.Command.Api.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> RemoveCommentAsync(Guid id, RemoveCommentCommand command)
+        public async Task<ActionResult> RemoveCommentAsync(string id, RemoveCommentCommand command)
         {
             try
             {

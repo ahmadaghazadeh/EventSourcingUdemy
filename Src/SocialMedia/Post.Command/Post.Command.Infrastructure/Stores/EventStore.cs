@@ -23,7 +23,7 @@ namespace Post.Command.Infrastructure.Stores
 			_eventProducer = eventProducer;
 		}
 
-		public async Task SaveEventAsync(Guid aggregateId, IEnumerable<BaseEvent> events, int expectedVersion)
+		public async Task SaveEventAsync(string aggregateId, IEnumerable<BaseEvent> events, int expectedVersion)
 		{
 			var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
 			if (expectedVersion != -1 && eventStream[^1].Version != expectedVersion)// eventStream[^1] eventStream[eventStream.length-1]
@@ -51,7 +51,7 @@ namespace Post.Command.Infrastructure.Stores
 			}
 		}
 
-		public async Task<List<BaseEvent>> GetEventsAsync(Guid aggregateId)
+		public async Task<List<BaseEvent>> GetEventsAsync(string aggregateId)
 		{
 			var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
 			if (eventStream == null || !eventStream.Any())
@@ -68,6 +68,17 @@ namespace Post.Command.Infrastructure.Stores
 
 			return eventStream.OrderBy(x => x.Version)
 				.Select(x=> JsonSerializer.Deserialize<BaseEvent>(x.EventData, options: options)).ToList();
+		}
+
+		public async Task<List<string>> GetAggregateIdsAsync()
+		{
+			var eventStream = await _eventStoreRepository.FindAllAsync();
+			if (eventStream == null || !eventStream.Any())
+			{
+				throw new ArgumentNullException(nameof(eventStream), "Cloud not retrieve event stream form the event");
+			}
+
+			return eventStream.Select(e => e.AggregateIdentifier).Distinct().ToList();
 		}
 	}
 }

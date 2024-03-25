@@ -24,7 +24,7 @@ namespace Post.Command.Infrastructure.Repositories
 			await _eventStoreCollection.InsertOneAsync(@event).ConfigureAwait(false);
 		}
 
-		public  Task<List<EventModel>> FindByAggregateId(Guid aggregateId)
+		public  Task<List<EventModel>> FindByAggregateId(string aggregateId)
 		{
  
 
@@ -32,6 +32,11 @@ namespace Post.Command.Infrastructure.Repositories
 				FindSync(x => x.AggregateIdentifier.Equals(aggregateId.ToString()))
 				.ToList();
 			return Task.FromResult(tess1);
+		}
+
+		public async Task<List<EventModel>> FindAllAsync()
+		{
+			return await _eventStoreCollection.Find(_ => true).ToListAsync().ConfigureAwait(false);
 		}
 	}
 }

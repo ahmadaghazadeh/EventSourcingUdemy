@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Post.Command.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94b3f533705ad1eaedc5dfa9889ee1771f7a597c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba37e0e12869e36520196fad5c4413d2b8ac9d5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Post.Command.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Post.Command.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

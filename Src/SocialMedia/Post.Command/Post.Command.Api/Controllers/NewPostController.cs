@@ -22,7 +22,7 @@ namespace Post.Command.Api.Controllers
         [HttpPost]
         public async Task<ActionResult> NewPostAsync(NewPostCommand command)
         {
-            var id = Guid.NewGuid();
+            var id = Guid.NewGuid().ToString();
             try
             {
                 command.Id = id;

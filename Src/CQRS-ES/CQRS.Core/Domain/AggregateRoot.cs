@@ -9,10 +9,10 @@ namespace CQRS.Core.Domain
 {
 	public abstract class AggregateRoot
 	{
-		protected Guid _id;
+		protected string _id;
 		public int Version { get; set; } = -1;
 
-		public Guid Id { get { return _id; } }
+		public string Id { get { return _id; } }
 
 		private readonly List<BaseEvent> _changes = new();
 

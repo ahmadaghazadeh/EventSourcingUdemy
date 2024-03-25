@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Aghazadeh\\Git\\EventSourcing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.infrastructure\\repositories\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.infrastructure\\repositories\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.api\\controllers\\likepostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.api\\controllers\\likepostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.infrastructure\\stores\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1C9DDD-65CB-4963-B2DC-9A1A6504D3A2}|Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Post.Command.Infrastructure.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.infrastructure\\stores\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.api\\controllers\\editmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.api\\controllers\\editmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CB8F127-F489-4290-ADB1-B5C468875C88}|Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\cqrs-es\\cqrs.core\\events\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB8F127-F489-4290-ADB1-B5C468875C88}|Src\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|solutionrelative:src\\cqrs-es\\cqrs.core\\events\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|d:\\aghazadeh\\git\\eventsourcing\\src\\socialmedia\\post.command\\post.command.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A169DA-38D7-4EBC-BD76-966843820FAB}|Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Post.Command.Api.csproj|solutionrelative:src\\socialmedia\\post.command\\post.command.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,53 +82,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EventModel.cs",
-              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\Events\\EventModel.cs",
-              "RelativeDocumentMoniker": "Src\\CQRS-ES\\CQRS.Core\\Events\\EventModel.cs",
-              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\CQRS-ES\\CQRS.Core\\Events\\EventModel.cs",
-              "RelativeToolTip": "Src\\CQRS-ES\\CQRS.Core\\Events\\EventModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA5wA4AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T11:18:09.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EventStoreRepository.cs",
-              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Repositories\\EventStoreRepository.cs",
-              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Repositories\\EventStoreRepository.cs",
-              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Repositories\\EventStoreRepository.cs",
-              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Repositories\\EventStoreRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAADgvysAAABGAAAA",
+              "Title": "LikePostController.cs",
+              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\LikePostController.cs",
+              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\LikePostController.cs",
+              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\LikePostController.cs",
+              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\LikePostController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADgvxYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T10:12:18.991Z",
+              "WhenOpened": "2024-03-25T04:30:56.403Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Program.cs",
-              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Program.cs",
-              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T10:11:32.28Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EventStore.cs",
-              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Stores\\EventStore.cs",
-              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Stores\\EventStore.cs",
-              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Stores\\EventStore.cs",
-              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Infrastructure\\Stores\\EventStore.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAADgvycAAAAwAAAA",
+              "Title": "EditMessageController.cs",
+              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\EditMessageController.cs",
+              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\EditMessageController.cs",
+              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\EditMessageController.cs",
+              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\EditMessageController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADgvxYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T10:10:29.53Z",
+              "WhenOpened": "2024-03-25T04:30:50.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewPostController.cs",
+              "DocumentMoniker": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\NewPostController.cs",
+              "RelativeDocumentMoniker": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\NewPostController.cs",
+              "ToolTip": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\NewPostController.cs",
+              "RelativeToolTip": "Src\\SocialMedia\\Post.Command\\Post.Command.Api\\Controllers\\NewPostController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAADgvzIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:30:48.519Z",
               "EditorCaption": ""
             }
           ]
