@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SEFivOph3dHob3duxLh+23/pkPDkbFrS4CAYsBmzKWY3zJ21+c0QBAKoPiGScwsRZlcdndSVHT2PBitdSC4+jg==",
+  "dgSpecHash": "6bxM1rYVhFgI7nQg1RmcQdFoWiMmJDeyyT0zfhgVe15iPAjzAcVpZLalRBRlAVGtNscbKV2xwykiEr/dxQg0lg==",
   "success": true,
   "projectFilePath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj",
   "expectedPackageFiles": [
@@ -69,6 +69,8 @@
     "C:\\Users\\1\\.nuget\\packages\\mongodb.driver\\2.24.0\\mongodb.driver.2.24.0.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\mongodb.driver.core\\2.24.0\\mongodb.driver.core.2.24.0.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\mongodb.libmongocrypt\\1.8.2\\mongodb.libmongocrypt.1.8.2.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.11\\npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

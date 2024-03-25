@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Post.Common.Events;
+﻿using Post.Common.Events;
 using Post.Query.Domain.Entities;
 using Post.Query.Domain.Repositories;
 
@@ -61,7 +59,9 @@ namespace Post.Query.Infrastructure.Handlers
 			await _commentRepository.CreateAsync(comment);
 		}
 
-		public async Task On(CommandUpdatedEvent @event)
+		 
+
+		public async Task On(CommentUpdatedEvent @event)
 		{
 			var comment = await _commentRepository.GetByIdAsync(@event.Id);
 			comment.Comment=@event.Comment;

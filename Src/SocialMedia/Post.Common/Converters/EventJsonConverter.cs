@@ -1,6 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 using CQRS.Core.Events;
+using Microsoft.Extensions.Logging;
 using Post.Common.Events;
 
 namespace Post.Common.Converters
@@ -42,7 +43,7 @@ namespace Post.Common.Converters
 
 		public override void Write(Utf8JsonWriter writer, BaseEvent value, JsonSerializerOptions options)
 		{
-			throw new NotImplementedException();
+			JsonSerializer.Serialize(writer, value, value.GetType(), options);
 		}
 	}
 }

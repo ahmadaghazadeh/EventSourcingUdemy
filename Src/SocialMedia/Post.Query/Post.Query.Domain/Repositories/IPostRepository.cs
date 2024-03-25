@@ -6,8 +6,8 @@ namespace Post.Query.Domain.Repositories
 	{
 		Task CreateAsync(PostEntity entity);
 		Task UpdateAsync(PostEntity entity);
-		Task DeleteAsync(Guid postId);
-		Task<PostEntity> GetByIdAsync(Guid postId);
+		Task DeleteAsync(string postId);
+		Task<PostEntity> GetByIdAsync(string postId);
 
 		Task<List<PostEntity>> ListAllAsync();
 		Task<List<PostEntity>> ListByAuthorAsync(string author);

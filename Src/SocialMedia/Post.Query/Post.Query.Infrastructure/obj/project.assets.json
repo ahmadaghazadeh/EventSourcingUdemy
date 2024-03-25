@@ -1760,7 +1760,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "CQRS.Core": "1.0.0"
+          "CQRS.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.16"
         },
         "compile": {
           "bin/placeholder/Post.Common.dll": {}

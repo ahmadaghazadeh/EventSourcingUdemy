@@ -29,7 +29,9 @@ namespace Post.Query.Infrastructure.Repositories
 			_ = await context.SaveChangesAsync();
 		}
 
-		public async Task DeleteAsync(Guid postId)
+	 
+
+		public async Task DeleteAsync(string postId)
 		{
 			using ReadDbContext context = _contextFactory.CreateDbContext();
 			var post = await GetByIdAsync(postId);
@@ -37,7 +39,7 @@ namespace Post.Query.Infrastructure.Repositories
 			await context.SaveChangesAsync();
 		}
 
-		public async Task<PostEntity> GetByIdAsync(Guid postId)
+		public async Task<PostEntity> GetByIdAsync(string postId)
 		{
 			using ReadDbContext context = _contextFactory.CreateDbContext();
 			return await context.Posts

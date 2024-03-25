@@ -8,7 +8,6 @@ namespace Post.Query.Infrastructure.Handlers
 		Task On(MessageUpdatedEvent @event);
 		Task On(PostLikedEvent @event);
 		Task On(CommentAddedEvent @event);
-		Task On(CommandUpdatedEvent @event);
 		Task On(PostRemovedEvent @event);
 		Task On(CommentRemovedEvent @event);
 	}

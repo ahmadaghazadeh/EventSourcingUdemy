@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "56INOtn7okz5wnxWHrsk7P+UXT6W6R1gfzcEnQDYlIIsBlxaxDC1aLeFyJmQSUyN2g6YmEty8Ay+1nMuZAxqRQ==",
+  "dgSpecHash": "BJ/xUkf2nbbBclfBysqXYhJRHjxq1Vci3oT/rx8BuYC+0QKnn+IM8sOV1f6YpvQ6ooaunCXxTSr2iL9wXY9JNQ==",
   "success": true,
   "projectFilePath": "D:\\Aghazadeh\\Git\\EventSourcing\\Src\\SocialMedia\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
   "expectedPackageFiles": [

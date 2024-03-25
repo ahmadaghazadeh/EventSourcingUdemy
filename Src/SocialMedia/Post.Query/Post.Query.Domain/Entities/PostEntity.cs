@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Post.Query.Domain.Entities
 {
-	[Table("Post")]
+	[Table("Post",Schema = "dbo")]
 	public class PostEntity
 	{
 
 		[Key]
-		public Guid Id { get; set; }
+		public string Id { get; set; }
 
 		public string Author { get; set; }
 

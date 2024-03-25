@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Post.Query.Domain.Entities;
 
-[Table("Comment")]
+[Table("Comment", Schema = "dbo")]
 public class CommentEntity
 {
 
 	[Key]
-	public Guid Id { get; set; }
+	public string Id { get; set; }
 
 	public string UserName { get; set; }
 
@@ -18,7 +18,7 @@ public class CommentEntity
 
 	public bool Edited { get; set; }
 
-	public Guid PostId { get; set; }
+	public string PostId { get; set; }
 
 	[System.Text.Json.Serialization.JsonIgnore]
 	public virtual PostEntity Post{ get; set; }

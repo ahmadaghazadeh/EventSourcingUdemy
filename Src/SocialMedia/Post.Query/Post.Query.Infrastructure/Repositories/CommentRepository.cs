@@ -22,7 +22,7 @@ namespace Post.Query.Infrastructure.Repositories
 			_ = await context.SaveChangesAsync();
 		}
 
-		public async Task DeleteAsync(Guid commentId)
+		public async Task DeleteAsync(string commentId)
 		{
 			using ReadDbContext context = _contextFactory.CreateDbContext();
 			var comment = await GetByIdAsync(commentId);
@@ -33,7 +33,7 @@ namespace Post.Query.Infrastructure.Repositories
 			_ = await context.SaveChangesAsync();
 		}
 
-		public async Task<CommentEntity> GetByIdAsync(Guid commentId)
+		public async Task<CommentEntity> GetByIdAsync(string commentId)
 		{
 			using ReadDbContext context = _contextFactory.CreateDbContext();
 			return await context.Comments.FirstOrDefaultAsync(x => x.Id == commentId);

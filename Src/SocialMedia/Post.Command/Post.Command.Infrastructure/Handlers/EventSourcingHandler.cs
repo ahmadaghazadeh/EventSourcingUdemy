@@ -38,7 +38,7 @@ namespace Post.Command.Infrastructure.Handlers
 			foreach (var aggregateId in aggregateIds)
 			{
 				var aggregate = await GetByIdAsync(aggregateId);
-				if (aggregate==null || aggregate.Active) continue;
+				if (aggregate==null || !aggregate.Active) continue;
 
 				var events = await _eventStore.GetEventsAsync(aggregateId);
 

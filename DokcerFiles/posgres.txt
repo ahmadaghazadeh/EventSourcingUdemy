@@ -1,0 +1,1 @@
+sudo docker run -d -- name posgres-contianer -p 5432:5432 --network mydockernetwork -e POSTGRES_PASSWORD=postgresPsw --restart alwyas -v postgresql_data://var/lib/postgresql/data postgres:latest

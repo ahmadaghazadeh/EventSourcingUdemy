@@ -36,7 +36,7 @@ namespace Post.Query.Api.Controllers
         }
 
         [HttpGet("byId/{postId}")]
-        public async Task<ActionResult> GetByPostIdAsync(Guid postId)
+        public async Task<ActionResult> GetByPostIdAsync(string postId)
         {
             try
             {

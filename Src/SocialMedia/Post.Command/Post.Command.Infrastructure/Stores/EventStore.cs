@@ -1,13 +1,10 @@
 ﻿
-using System.Data;
 using System.Text.Json;
-using Confluent.Kafka;
 using CQRS.Core.Domain;
 using CQRS.Core.Events;
 using CQRS.Core.Exception;
 using CQRS.Core.Infrastructure;
 using CQRS.Core.Producers;
-using MongoDB.Bson.Serialization.Serializers;
 using Post.Common.Converters;
 
 namespace Post.Command.Infrastructure.Stores
@@ -25,6 +22,15 @@ namespace Post.Command.Infrastructure.Stores
 
 		public async Task SaveEventAsync(string aggregateId, IEnumerable<BaseEvent> events, int expectedVersion)
 		{
+			var options = new JsonSerializerOptions()
+			{
+				Converters =
+				{
+					new EventJsonConverter()
+				},
+				WriteIndented = true
+			};
+ 
 			var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
 			if (expectedVersion != -1 && eventStream[^1].Version != expectedVersion)// eventStream[^1] eventStream[eventStream.length-1]
 				throw new ConcurrencyException();
@@ -41,7 +47,7 @@ namespace Post.Command.Infrastructure.Stores
 					AggregateType = nameof(Post),
 					Version =version,
 					EventType = eventType,
-					EventData = JsonSerializer.Serialize(@event)
+					EventData = JsonSerializer.Serialize(@event, options)
 			};
 				await _eventStoreRepository.SaveAsync(eventModel);
 

@@ -112,6 +112,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -196,6 +202,10 @@
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[7.0.17, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

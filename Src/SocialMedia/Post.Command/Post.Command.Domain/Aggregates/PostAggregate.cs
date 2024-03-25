@@ -9,7 +9,7 @@ namespace Post.Command.Domain.Aggregates
 
 		private string _author;
 
-		private readonly Dictionary<Guid, Tuple<string, string>> _comments = new();
+		private readonly Dictionary<string, Tuple<string, string>> _comments = new();
 
 		public bool Active
 		{
@@ -96,7 +96,7 @@ namespace Post.Command.Domain.Aggregates
 			RaiseEvent(new CommentAddedEvent()
 			{
 				Id = _id,
-				CommentId = Guid.NewGuid(),
+				CommentId = Guid.NewGuid().ToString(),
 				Comment = comment,
 				UserName = username,
 				CommentDate = DateTime.Now
@@ -109,7 +109,7 @@ namespace Post.Command.Domain.Aggregates
 			_comments.Add(@event.CommentId,new Tuple<string, string>(@event.Comment,@event.UserName));
 		}
 
-		public void EditComment(Guid commentId,string comment,string userName)
+		public void EditComment(string commentId,string comment,string userName)
 		{
 			if (!_active)
 			{
@@ -131,7 +131,7 @@ namespace Post.Command.Domain.Aggregates
 			});
 		}
 
-		public void RemoveComment(Guid commentId, string username)
+		public void RemoveComment(string commentId, string username)
 		{
 			if (!_active)
 			{
